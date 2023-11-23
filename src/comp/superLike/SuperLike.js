@@ -1,6 +1,5 @@
-// src/components/SuperLike.js
 import React, { useEffect, useState } from 'react';
-import './SuperLike.css'; // Import additional styles
+import './SuperLike.css'; 
 
 const SuperLike = ({ onSuperLikeAnimationEnd, onSwipeRight }) => {
   const [showSuperLike, setShowSuperLike] = useState(true);
@@ -21,7 +20,7 @@ const SuperLike = ({ onSuperLikeAnimationEnd, onSwipeRight }) => {
         <div className={`super-like-animation ${showSuperLike ? 'visible' : ''}`}>
           <div className="super-like-container">
             <div className="star-icons">
-              {/* Add your custom star SVG or image here for a super like effect */}
+              
               <span className="super-like-text">Super Like!</span>
             </div>
             <p className="super-like-message">You've sent a Super Like. Prepare for something special!</p>

@@ -1,7 +1,6 @@
-/* src/App.css  */
-
 .app {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -55,4 +54,4 @@
   padding: 10px;
 }
 
-/* Add more styling as per your creativity */
+

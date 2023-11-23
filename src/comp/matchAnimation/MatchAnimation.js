@@ -1,6 +1,5 @@
-// src/components/MatchAnimation.js
 import React, { useEffect, useState } from 'react';
-import './MatchAnimation.css'; // Import additional styles
+import './MatchAnimation.css'; 
 
 const MatchAnimation = ({  user }) => {
   const [showMatch, setShowMatch] = useState(true);

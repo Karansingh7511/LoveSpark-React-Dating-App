@@ -1,11 +1,12 @@
-// src/App.js
 import React from 'react';
 import UserCard from './comp/userCard/UserCard';
+import AnimatedHeading from './comp/AnimatedHeading/AnimatedHeading';
 import './App.css';
 const App = () => {
   return (
     <>
-    <div className="app">   
+    <div className="app">
+    <AnimatedHeading />    
         <UserCard />
     </div>
     </>
