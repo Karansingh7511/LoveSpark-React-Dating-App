@@ -1,0 +1,58 @@
+/* SuperLikeAnimation.css */
+
+.super-like-animation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  opacity: 0;
+  width: 100px; /* Take up the full width of the viewport */
+  height: 100px; /* Take up the full height of the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.super-like-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.star-icons {
+  font-size: 3em;
+  color: #ffcc00; /* Customize the color as needed */
+  margin-bottom: 10px;
+}
+
+.super-like-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffcc00; /* Same color as the star icon */
+}
+
+.super-like-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #333333;
+}
+
+.visible {
+  opacity: 1;
+  animation: fadeInOut 5s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
